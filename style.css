@@ -1,0 +1,222 @@
+@font-face {
+    font-family: nb;
+    src: url(./NBInternationalProBoo.ttf);
+}
+
+@font-face {
+    font-family: rejoy;
+    src: url(./Nike-Futura-ot-300.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: nb;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#page1{
+    height: 100vh;
+    width: 100%;
+    background-color: red;
+    position: relative;
+}
+
+#page1 video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+}
+
+#page1-content{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.541);
+    position: relative;
+    z-index: 2;
+    display: flex;
+    color: #fff;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 5vw;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color: transparent;
+    padding: 2vw 5vw;
+}
+
+nav img{
+    height: 2.4vw;
+}
+
+nav h3{
+    font-size: 2vw;
+    font-weight: 600;
+}
+
+#page1-bottom {
+    align-items: center;
+    line-height: 50px;
+}
+
+#page1-bottom h1{
+    font-family: rejoy;
+    font-size: 5vw;
+}
+
+#page2{
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    position: relative;
+    padding: 7vw;
+}
+
+#page3{
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+    padding: 3vw;
+}
+
+#page3-top{
+    /* background-color: red; */
+    text-align: center;
+}
+
+#page3-top h4{
+    margin-bottom: 1vw;
+    font-size: 2.5vw;
+    font-weight: 900;
+}
+
+#page3-elements{
+    height: 75vh;
+    width: 100%;
+    margin-top: 20vw;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: red; */
+    display: flex;
+}
+
+#page3-elements .box{
+    height: 100%;
+    width: 33%;
+    background-color: blue;
+    position: relative;
+}
+
+#page3-elements .box video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    
+}
+
+#page3-elements .box img{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: all linear 1s;
+    
+}
+
+#page3-elements .box:hover img{
+    opacity: 0;
+}
+
+#page4{
+    height: 100vh;
+    width: 100%;
+    padding: 4vw 0;
+    position: relative;
+}
+
+#page4 h1{
+    font-size: 9vw;
+    font-weight: 100;
+    border-bottom: 1px solid #000;
+    /* background-color: red; */
+    width: 96%;
+    margin-left: 2%;
+}
+
+#swiper{
+    height: 80vh;
+    width: 100%;
+    /* background-color: red; */
+    object-fit: cover;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 80%;
+    height: 100%;
+    object-fit: cover;
+
+  }
+
+  .swiper {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+#loader{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: #000;
+    z-index: 99;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    gap: 10px;
+}
+#loader h3{
+    font-size: 2vw;
+}
+
+#page2 video{
+    height: 80vh;
+    width: 80%;
+    margin: 5vh ;
+    position:absolute;
+    object-fit: cover;
+    object-position: center;
+}
+#page5 {
+    height: 100vh;
+    width: 100%;
+}
